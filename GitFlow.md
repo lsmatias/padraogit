@@ -10,7 +10,7 @@ Ao usar a extensão do git-flow, você será levado para uma configuração que 
 $ git flow init
 
 
-Initialized empty Git repository in C:/Windows/System32/.git/
+Initialized empty Git repository in ~/project/.git/
 No branches exist yet. Base branches must be created now.
 Branch name for production releases: [master]
 Branch name for "next release" development: [develop]
