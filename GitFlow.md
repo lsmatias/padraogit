@@ -1,4 +1,5 @@
-# Manual Pratico para Iniciar o Git Flow
+:octocat:
+# Manual Pratico para Iniciar o Git Flow 
 
 
 Ao utilizar a biblioteca de extensão do git-flow, executar git flow init no repositório existente vai criar uma ramificações nos branchs de desenvolvimento:
