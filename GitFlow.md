@@ -10,14 +10,14 @@ Ao usar a extensão do git-flow, você será levado para uma configuração que 
 $ git flow init
 
 
-Initialized empty Git repository in ~/project/.git/
+Initialized empty Git repository in C:/Windows/System32/.git/
 No branches exist yet. Base branches must be created now.
-Branch name for production releases: [main]
+Branch name for production releases: [master]
 Branch name for "next release" development: [develop]
-
 
 How to name your supporting branch prefixes?
 Feature branches? [feature/]
+Bugfix branches? [bugfix/]
 Release branches? [release/]
 Hotfix branches? [hotfix/]
 Support branches? [support/]
