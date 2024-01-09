@@ -10,7 +10,35 @@ De acordo com a documentação do **Conventional Commits**, Commits Semânticos 
 
 Esses commits auxiliarão você e sua equipe a entenderem de forma facilitada quais alterações foram realizadas no trecho de código que foi commitado.
 
-Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual, teste...
+Essa identificação ocorre por meio de uma palavra e emoji que identifica se aquele commit realizado se trata de uma alteração de código, atualização de pacotes, documentação, alteração de visual.
+
+# Administração
+
+1. **Commits Atômicos e Descritivos:** Faça commits pequenos e significativos, cada um com uma única alteração lógica. Forneça mensagens claras e descritivas que expliquem o que foi alterado no commit.
+
+2. **Branches Descritivas:** Use nomes de branches descritivos e relacionados à funcionalidade ou à tarefa que está sendo trabalhada. Mantenha o nome consistente com o propósito da branch.
+
+3. **Frequência de Commits:** Faça commits frequentes para manter um histórico detalhado do progresso e facilitar a revisão e a reversão de alterações.
+
+4. **Merge Regularmente:** Mantenha seu branch atualizado com as alterações feitas na branch principal (geralmente `main` ou `master`) para evitar grandes conflitos de merge.
+
+5. **Revisão de Código (Code Review):** Antes de integrar suas alterações, solicite revisões de código por pares para garantir a qualidade do código e identificar possíveis problemas.
+
+6. **Ignorar Arquivos Indesejados:** Use o arquivo `.gitignore` para listar arquivos ou diretórios que não devem ser versionados, como arquivos de compilação, dependências ou chaves secretas.
+
+7. **Uso de Branches Temporárias (Feature Branches):** Crie branches separadas para trabalhar em novas funcionalidades ou correções de bugs. Isso ajuda a isolar o trabalho em andamento do código principal.
+
+8. **Utilização de Tags:** Utilize tags para marcar commits importantes, como versões de lançamento ou pontos de referência significativos.
+
+9. **Squash Commits (Agrupar Commits):** Quando apropriado, agrupe commits relacionados usando o comando `git rebase -i` para manter um histórico mais limpo e significativo.
+
+10. **Uso de Rebasing em vez de Merging:** Utilize o rebasing (`git rebase`) para integrar alterações de uma branch para outra, mantendo um histórico linear e evitando commits de merge desnecessários.
+
+11. **Documentação e README:** Mantenha um README atualizado e documente o projeto para ajudar os colaboradores a entenderem a estrutura, a configuração e os processos do projeto.
+
+12. **Backup Regular do Repositório:** Faça backup do repositório Git regularmente, seja por meio de repositórios remotos ou soluções de backup local.
+
+Estas são diretrizes gerais que podem variar de acordo com as necessidades e dinâmicas específicas de cada projeto ou equipe, mas segui-las geralmente contribui para um fluxo de trabalho mais eficiente e uma melhor colaboração no desenvolvimento de software com o Git.
 
 ## 🦄 Tipo e Descrição
 
